@@ -2,7 +2,17 @@
 
 namespace App\Domain\Bee;
 
-
+/**
+ * Class BeeName
+ * @package App\Domain\Bee
+ *
+ *
+ * Really should have used Faker library, but the Names are not appropriate for bees.
+ *
+ *
+ *
+ *
+ */
 class BeeName
 {
     const FIRSTNAMES = [
