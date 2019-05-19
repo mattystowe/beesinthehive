@@ -1,0 +1,25 @@
+{
+    "name": "twentysix22/beesinthehive",
+    "description": "A simple command line game - you should really play better games than this!",
+    "type": "composer",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Matt Stowe",
+            "email": "matt@twentysix22.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "App\\": "src/",
+            "Tests\\": "tests/"
+        }
+    },
+    "minimum-stability": "dev",
+    "require": {
+        "phpunit/phpunit": "7.5.x-dev",
+        "league/climate": "dev-master",
+        "ext-json": "^1.5"
+    }
+
+}
